@@ -13,6 +13,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap"
         rel="stylesheet">
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/26092aa549.js" crossorigin="anonymous"></script>
     <title>Hockey's Assignment-3</title>
     <style>
         .font-manrope {
@@ -63,8 +65,8 @@
             </div>
         </nav>
     </header>
-    <main>
-        <section class="container mx-auto">
+    <main class="container mx-auto">
+        <section class="">
             <div>
                 <div class="flex mb-3 justify-center items-center align-middle relative">
                     <img src="./Images/1.png" alt="">
@@ -119,16 +121,14 @@
 
         </section>
         <!--program section  -->
-        <section class="mt-4 lg:mt-2">
+        <section class="">
             <div class="mt-4 lg:mb-6 lg:px-56 text-center">
                 <h1 class="text-2xl lg:text-4xl font-bold text-[#131318] pb-2">Program Sections</h1>
                 <p class="text-sm font-normal text-[#13131899]">"Program sections" can refer to different parts or
                     segments within a computer program. The organization of a program into sections helps in structuring
                     the code, making it more modular, readable, and maintainable.</p>
             </div>
-        </section>
-        <section class="container mx-auto">
-            <div class="grid lg:grid-cols-2 gap-3 ml-2">
+            <div class="grid lg:grid-cols-2 gap-3">
                 <div
                     class="bg-[linear-gradient(45deg, rgba(0,0,0,0.4),rgba(0,0,0,0.1))] bg-[url(./Images/2.png)] w-full rounded-lg lg:col-span-1 bg-no-repeat lg:h-[338px] justify-center items-center">
                     <div class="pt-4 lg:pt-24 pl-4">
@@ -183,7 +183,7 @@
             </div>
         </section>
         <!-- products and description section -->
-        <section class="container mx-auto">
+        <section class="">
             <div class="lg:grid lg:grid-cols-2 gap-5 text-center">
                 <!-- first product -->
                 <div
@@ -336,7 +336,7 @@
                     of <br> questions that different types of hockey clients might ask:.</p>
             </div>
         </section>
-        <section class="container mx-auto">
+        <section class="">
             <div class="lg:flex gap-5 bg-[#FFF]">
                 <div>
                     <div class="mx-auto rounded-xl justify-center items-center mb-2">
@@ -392,16 +392,18 @@
             </div>
         </section>
         <!-- get in touch section -->
-        <div>
-            <div class="mt-4 lg:mb-6 lg:px-56 text-center">
-                <h1 class="text-2xl lg:text-4xl font-bold text-[rgb(19,19,24)] pb-2">Get In Touch</h1>
-                <p class="text-sm font-normal text-[#13131899] mb-2">Look for a "Contact" or "Get in Touch" page on the
-                    website. This page often contains <br> relevant contact details and may include a contact form for
-                    sending messages.</p>
+        <section class="">
+            <div>
+                <div class="mt-4 lg:mb-6 lg:px-56 text-center">
+                    <h1 class="text-2xl lg:text-4xl font-bold text-[rgb(19,19,24)] pb-2">Get In Touch</h1>
+                    <p class="text-sm font-normal text-[#13131899] mb-2">Look for a "Contact" or "Get in Touch" page on
+                        the
+                        website. This page often contains <br> relevant contact details and may include a contact form
+                        for
+                        sending messages.</p>
+                </div>
             </div>
-        </div>
-        <section class="container mx-auto">
-            <div class="flex lg:flex-1 gap-4">
+            <div class="flex flex-col lg:flex-row lg:flex-1 gap-4">
                 <div class="gap-3 grid lg:w-[35%]">
                     <div class="rounded-lg py-4 px-3 bg-[#BCED6D1A]">
                         <img class="" src="./Images/Group 1171275317.png" alt="">
@@ -449,26 +451,66 @@
                         </div>
                         <div class="w-[100%] rounded-lg">
                             <h1 class="text-xl pl-5 font-bold">Message:</h1>
-                            <input
+                            <textarea
                                 class="h-40 bg-[#13131805] w-[100%] pl-5 text-[#1313184D] hover:bg-amber-100 outline-none rounded-lg duration-150 -pt-40"
-                                type="Message" placeholder="Type Your Message">
+                                type="Message" placeholder="Type Your Message"></textarea>
+
                         </div>
                         <div
-                            class="w-[100%] rounded-lg border-2 border-red-400 text-center mt-10 text-white bg-[#FF4240]">
-                            <button class="text-xl p-3 font-semibold ">Send Message</button>
+                            class="w-[100%] rounded-lg border-2 border-red-400 text-center hover:bg-green-400 hover:text-red-600 hover:duration-300 mt-10 text-white bg-[#FF4240]">
+                            <button class="text-xl p-3 font-semibold">Send Message</button>
                         </div>
                     </form>
                 </div>
             </div>
         </section>
-        <section class="container mx-auto">
+        <section class="">
             <div class="grid justify-center items-center text-center mt-10 gap-5 bg-[#13131805]">
                 <h1 class="text-2xl font-bold">Social Media</h1>
                 <img src="./Images/Social.png" alt="">
             </div>
         </section>
     </main>
-    
+    <footer class=" bg-[#131318] text-white mt-10 rounded-2xl border-none">
+        <div class="flex flex-wrap justify-center">
+            <div class="p-12 flex-1">
+                <h1 class="text-2xl font-bold pb-10">Get In Touch</h1>
+                <p class="pb-5">If you're looking to get in touch with a specific person, company, or service,</p>
+                <i class="fa-solid fa-envelope pb-4"></i>hockeys@support.com <br>
+                <i class="fa-solid fa-phone"></i>(+62) 123-321-543
+            </div>
+            <div class="p-12 flex-1">
+                <h1 class="text-2xl font-bold pb-10">Company</h1>
+                <p class="pb-5">About us <br> <br>
+                    Leadership <br> <br>
+                    Careers <br> <br>
+                    News & Article <br> <br>
+                    Legal Notice</p>
+
+            </div>
+            <div class="p-12 flex-1">
+                <h1 class="text-2xl font-bold pb-10">Support</h1>
+                <p class="pb-5">Help Center <br> <br>
+                    FAQ <br> <br>
+                    Ticket Support <br> <br>
+                    Contact Us <br> <br>
+                </p>
+
+            </div>
+            <div class="p-12 flex-1">
+                <h1 class="text-2xl font-bold pb-10">Services</h1>
+                <p class="pb-5">Academy <br> <br>
+                    Group Lesson <br> <br>
+                    Private Lesson <br> <br>
+                    Hockeys for kids <br> <br>
+                    Hockeys for Adult
+                </p>
+
+            </div>
+
+        </div>
+
+    </footer>
 
 </body>
 
